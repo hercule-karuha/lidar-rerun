@@ -1,0 +1,9 @@
+[package]
+name = "lidar-rerun"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dora-node-api = { path = "../../../dora/apis/rust/node" }
+rerun = "0.18.2"
+dotenv = "0.15"
