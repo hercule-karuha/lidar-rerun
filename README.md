@@ -6,8 +6,6 @@
 在用于可视化的远程主机上安装rerun viewer：
 `cargo install rerun-cli --locked`
 
-接受输入：
-pointcloud
 
 使用.env文件配置IP地址以及输入数据的ID
 .env文件示例：
