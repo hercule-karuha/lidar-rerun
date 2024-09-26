@@ -4,7 +4,9 @@
 ## 安装与配置
 
 在用于可视化的远程主机上安装rerun viewer：
-`cargo install rerun-cli --locked`
+```
+cargo install rerun-cli --locked
+```
 
 
 使用.env文件配置IP地址以及输入数据的事件ID
