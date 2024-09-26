@@ -8,6 +8,7 @@
 
 
 使用.env文件配置IP地址以及输入数据的ID
+
 .env文件示例：
 ```
 REMOTE_IP=127.0.0.1
@@ -16,6 +17,7 @@ PATH_ID=raw_path
 ```
 
 在yaml文件中配置节点的输入与输出
+
 示例：
 ```
   - id: lidar-rerun
