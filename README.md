@@ -14,8 +14,8 @@ cargo install rerun-cli --locked
 .env文件示例：
 ```
 REMOTE_IP=127.0.0.1
-POINT_CLOUD_ID=pointcloud
-PATH_ID=raw_path
+POINT_CLOUD_ID=pointcloud // 点云数据的dora输出id，需要与yaml文件中相同
+PATH_ID=raw_path // 轨迹数据的dora输出id，需要与yaml文件中相同
 ```
 
 在yaml文件中配置节点的输入与输出
