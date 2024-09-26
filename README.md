@@ -1,7 +1,7 @@
 # 使用rerun可视化激光雷达的点云与轨迹数据的dora节点
 
 
-## 安装
+## 安装与配置
 
 在用于可视化的远程主机上安装rerun viewer：
 `cargo install rerun-cli --locked`
@@ -28,6 +28,8 @@ PATH_ID=raw_path
           raw_path: path_input/raw_path
 ```
 
+
+## 运行
 在用于可视化的远程主机中的终端运行
 ```
 rerun
